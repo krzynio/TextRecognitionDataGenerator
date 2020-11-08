@@ -91,7 +91,7 @@ def create_strings_randomly(length, allow_variable, count, let, num, sym, lang):
             pool += "".join(
                 [chr(i) for i in range(19968, 40908)]
             )  # Unicode range of CHK characters
-        elif: lang == "pl":
+        elif lang == "pl":
             pool += "ąćęłnóśżźĄĆĘŁŃÓŚŻŹ"
         else:
             pool += string.ascii_letters
